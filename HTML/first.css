@@ -1,0 +1,157 @@
+body{
+    /* background-color: rgba(119, 119, 212, 0.137); */
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGhucXFkeG5uOXpieWw4anpicnk4Zm1nMXdtNW1nYjB1Zzg5dGhzbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O0TMMuXZBDs2RY8gZE/giphy.gif");
+    background-repeat: no-repeat;
+    background-position: right top ;
+    background-attachment: scroll;
+    background-clip: padding-box;
+}
+h1{
+    color: red;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+p.one{
+    border: 10px solid ;
+    border-color: red green blue violet;
+    border-right-style: dashed;
+    border-bottom-style: dotted;
+
+    
+}
+
+p.two{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px 200px;
+    padding: 20px ;
+    outline-style: dashed;
+    outline-color: green;
+    outline-offset: 3px;
+}
+
+.lorem1{
+    background-color: rgba(0, 0, 255, 0.164);
+    height:150px;
+    width: 100%;
+    max-width: 300px;
+    outline-width: thin;
+}
+
+.intro{
+    border: 1px solid black;
+    text-align: center;
+  
+}
+
+p.ankit{
+    unicode-bidi: bidi-override;
+    /* direction: rtl; */
+    direction: ltr;
+    /* text-decoration-line: underline;
+    text-decoration-color: rgba(0, 0, 255, 0.479);
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px; */
+    text-decoration: underline blue wavy 1px;
+     text-transform: uppercase;  /*upppercase, lowercase , capitalize */
+
+     text-indent: 30px;
+     letter-spacing: 3px;
+     word-spacing: 10px;
+     line-height: 40px;
+     
+     text-shadow: 2px 1px 5px red;
+
+     font-family:   'Courier New', Courier, monospace;
+
+     /* position: fixed; */
+}
+
+p.edit{
+    font-family: "Sofia", sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-stretch:extra-expanded;
+}
+
+a:link{
+    color: red;
+    text-decoration: none;
+}
+
+a:visited{
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
+a:active{
+    color: brown;
+    text-decoration: none;
+}
+
+ul{
+    list-style-image: url('downjuload.jpeg');
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+
+table , th ,td{
+    border: 1px solid green;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+table{
+    /* border-collapse: separate; */
+    border-spacing: 10px;
+    height: auto;
+    width: 1005;
+    
+}
+
+tr:hover{
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+th{
+    background-color: rgba(0, 128, 0, 0.68);
+}
+
+.tableContainer{
+    border: 1px solid black;
+    height: auto;
+  width: 1200px;
+  overflow-x: auto;
+  
+}
+
+.adhar{
+    border: 1px solid black;
+    padding: 20px;
+    position: absolute;
+    top: 120px;
+    
+}
+
+.check-overflow{
+    height: 200px;
+    overflow: scroll;
+    background-color: rgba(0, 0, 255, 0.185);
+}
+
+
+
+
+
